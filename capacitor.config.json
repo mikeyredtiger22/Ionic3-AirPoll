@@ -1,0 +1,6 @@
+{
+  "appId": "com.spikey.ionic3airpoll",
+  "appName": "Ionic3-AirPoll",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
