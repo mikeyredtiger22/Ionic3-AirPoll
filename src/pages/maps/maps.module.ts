@@ -10,7 +10,8 @@ import {GoogleMapsComponent} from "../../components/google-maps/google-maps";
   ],
   imports: [
     IonicPageModule.forChild(MapsPage),
-    // ComponentsModule,
+    ComponentsModule,
+    // GoogleMapsComponent,
   ],
   exports: [
     MapsPage,

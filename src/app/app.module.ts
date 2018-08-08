@@ -8,25 +8,23 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 import { ComponentsModule } from "../components/components.module";
-import { MapsPage } from "../pages/maps/maps";
+import { GoogleMapsComponent } from "../components/google-maps/google-maps";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    // MapsPage,
   ],
   imports: [
     BrowserModule,
     ComponentsModule,
     IonicModule.forRoot(MyApp),
-    // MapsPage,
+    // GoogleMapsComponent,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    // MapsPage,
   ],
   providers: [
     StatusBar,
