@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {MapsPage} from "../maps/maps";
+import { MapsPage } from "../maps/maps";
 
 @Component({
   selector: 'page-home',

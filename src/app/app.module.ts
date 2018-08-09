@@ -7,9 +7,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
-import { ComponentsModule } from "../components/components.module";
-import { GoogleMapsComponent } from "../components/google-maps/google-maps";
-
 @NgModule({
   declarations: [
     MyApp,
@@ -17,9 +14,7 @@ import { GoogleMapsComponent } from "../components/google-maps/google-maps";
   ],
   imports: [
     BrowserModule,
-    ComponentsModule,
     IonicModule.forRoot(MyApp),
-    // GoogleMapsComponent,
   ],
   bootstrap: [IonicApp],
   entryComponents: [

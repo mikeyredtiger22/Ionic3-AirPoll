@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { MapsPage } from './maps';
-import {ComponentsModule} from "../../components/components.module";
-import {GoogleMapsComponent} from "../../components/google-maps/google-maps";
+import { ComponentsModule } from "../../components/components.module";
 
 @NgModule({
   declarations: [
@@ -11,12 +10,9 @@ import {GoogleMapsComponent} from "../../components/google-maps/google-maps";
   imports: [
     IonicPageModule.forChild(MapsPage),
     ComponentsModule,
-    // GoogleMapsComponent,
   ],
   exports: [
     MapsPage,
   ]
-  // entryComponents: [ GoogleMapsComponent ],
-
 })
 export class MapsPageModule {}
